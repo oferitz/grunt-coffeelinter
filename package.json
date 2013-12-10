@@ -38,7 +38,8 @@
     "grunt-contrib-nodeunit": "~0.2.2"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "coffeelint"
   ],
   "readme": "",
   "readmeFilename": "README.md",
