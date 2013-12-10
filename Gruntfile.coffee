@@ -14,4 +14,5 @@ module.exports = (grunt) ->
 
   grunt.loadTasks 'tasks'
   grunt.registerTask 'default', 'coffeelinter'
+  grunt.registerTask 'test', 'coffeelinter'
 
