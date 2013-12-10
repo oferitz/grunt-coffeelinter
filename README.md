@@ -104,9 +104,7 @@ In this example, the default options are used. The files array can have many src
 
 ```coffee
     coffeelinter:
-      target:
-        files:
-          ['path/to/some.coffee', 'path/to/other.coffee']
+      target: ['path/to/some.coffee', 'path/to/other.coffee']
 ```
 
 #### Custom Options
@@ -118,9 +116,7 @@ example with all the options
         configFile: '.coffeelintrc'
         reportConsole: no
         reporterOutput: 'coffeelinter/report.json'
-      target: 
-        files:
-          ['path/to/some.coffee', 'path/to/other.coffee']
+      target: ['path/to/some.coffee', 'path/to/other.coffee']
 ```
 
 ## Contributing
