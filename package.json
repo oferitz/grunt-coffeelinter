@@ -1,0 +1,47 @@
+{
+  "name": "grunt-coffeelinter",
+  "description": "Validate coffeescript with coffeelint",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xl8/grunt-coffeelinter",
+  "author": {
+    "name": "Ofer Itzhaki",
+    "email": "oferi@exelate.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xl8/grunt-coffeelinter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xl8/grunt-coffeelinter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/xl8/grunt-coffeelinter/blob/master/LICENSE-"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "coffeelint": "~0.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "grunt-coffeelinter@0.0.1",
+  "_from": "grunt-coffeelinter@0.0.1"
+}
