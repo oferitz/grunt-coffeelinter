@@ -1,3 +1,5 @@
 node_modules
+coffeelinter
+.coffeelintrc
 npm-debug.log
 tmp

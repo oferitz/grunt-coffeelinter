@@ -4,11 +4,13 @@ module.exports = (grunt) ->
 
     coffeelinter:
       options:
-        force: no
+        force: yes
         configFile: '.coffeelintrc'
-        reportConsole: yes
-        reporterOutput: 'lint/foo.json'
-      simple: ['test/fixtures/entry.coffee', 'test//fixtures/child.coffee']
+        reportConsole: no
+        reporterOutput: 'coffeelinter/report.json'
+      target:
+        files:
+          ['test/fixtures/child.coffee', 'test/fixtures/entry.coffee']
 
   grunt.loadTasks 'tasks'
   grunt.registerTask 'default', 'coffeelinter'

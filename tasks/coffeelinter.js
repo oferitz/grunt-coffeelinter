@@ -43,9 +43,6 @@ module.exports = function(grunt) {
         }
 
         // Coffeelint the files
-        for(var key in options) {
-            grunt.log.writeln(key);
-        }
 
         files.forEach(function(file) {
             var fileErrors = coffeelint.lint(grunt.file.read(file), options)

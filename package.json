@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffeelinter",
   "description": "Validate coffeescript with coffeelint",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/xl8/grunt-coffeelinter",
   "author": {
     "name": "Ofer Itzhaki",
@@ -42,6 +42,6 @@
   ],
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "grunt-coffeelinter@0.0.1",
-  "_from": "grunt-coffeelinter@0.0.1"
+  "_id": "grunt-coffeelinter@0.1.0",
+  "_from": "grunt-coffeelinter@0.1.0"
 }
