@@ -8,7 +8,6 @@ module.exports = function(grunt) {
         var errors = []
         var errorFilesCount = 0;
         var files = this.filesSrc;
-
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
             force: false,
