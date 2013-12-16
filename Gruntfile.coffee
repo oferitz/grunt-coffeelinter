@@ -5,7 +5,7 @@ module.exports = (grunt) ->
     coffeelinter:
       options:
         force: yes
-        configFile: '.coffeelintrc'
+        configFile: 'coffeelintrc.json'
         reportConsole: no
         reporterOutput: 'coffeelinter/report.json'
       target: ['test/fixtures/child.coffee', 'test/fixtures/entry.coffee']
