@@ -22,7 +22,7 @@
   ],
   "main": "grunt.js",
   "engines": {
-    "node": "*"
+    "node": "~0.8"
   },
   "scripts": {
     "test": "grunt test"
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.9",
     "grunt-contrib-nodeunit": "~0.2.2"
   },
   "keywords": [
