@@ -1,4 +1,5 @@
 # grunt-coffeelinter
+--------------------------------
 
 > A grunt plugin for coffeelint your coffeescript projects.
 
