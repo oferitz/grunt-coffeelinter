@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
     var path = require('path');
-    var coffeelint = require('coffeelint')
+    var coffeelint = require('coffeelint');
 
     grunt.registerMultiTask('coffeelinter', 'Validate coffeescript with coffeelint.', function() {
 
@@ -42,7 +42,6 @@ module.exports = function(grunt) {
         }
 
         // Coffeelint the files
-
         files.forEach(function(file) {
             var fileErrors = coffeelint.lint(grunt.file.read(file), options)
             if(fileErrors.length) {

@@ -20,7 +20,7 @@
       "url": "http://github.com/xl8/grunt-coffeelinter/blob/master/LICENSE-"
     }
   ],
-  "main": "grunt.js",
+  "main": "grunt.coffee",
   "engines": {
     "node": "~0.8"
   },
