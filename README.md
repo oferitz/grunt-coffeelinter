@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/xl8/grunt-coffeelinter.png?branch=master)](https://travis-ci.org/xl8/grunt-coffeelinter)
-
-# grunt-coffeelinter
+[![Build Status](https://drone.io/github.com/oferitz/grunt-coffeelinter/status.png)](https://drone.io/github.com/oferitz/grunt-coffeelinter/latest)
 -------------------------------
 
 > A grunt plugin for coffeelint your coffeescript projects.
